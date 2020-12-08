@@ -1,47 +1,70 @@
-# React-Router && API
-Created with CodeSandbox
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
--We will use  axios to fetch data 
+## Available Scripts
 
+In the project directory, you can run:
 
--react and reactstrap 
+### `yarn start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- react-router-dom for the client routing 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
+### `yarn test`
 
--jsonplace holder  : https://jsonplaceholder.typicode.com/
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn build`
 
-1- create a react app 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2- install the dependecices 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3- create navbar , usersList , userCard component 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4- begin by fetch the data with axios and log it in the console 
+### `yarn eject`
 
-5 - set the result to a state then map the data to display a card for each user 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-6-implement the routing logic in the app js 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-7- in the userCard create a link with react-router-dom with to attribute "/profile/"+ userId 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-8- in the profile component we will get the user by id and display the result 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-9-the profile component must be rendred in a route "/profile/:userId" 
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Links : 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-JSON placeholder: https://jsonplaceholder.typicode.com/
+### Code Splitting
 
-react-Bootstrap : https://react-bootstrap.github.io/
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-react-router-dom : https://reactrouter.com/web/guides/quick-start
+### Analyzing the Bundle Size
 
-fetch Tuto :  https://www.freecodecamp.org/news/javascript-fetch-api-tutorial-with-js-fetch-post-and-header-examples/
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-# Video LINK : https://drive.google.com/file/d/1YLTgWWp368bX_pBzcyM3fVdLbPBpOqby/view?usp=sharing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
